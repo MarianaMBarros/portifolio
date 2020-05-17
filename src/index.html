@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital@0;1&family=Raleway&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Profile Mariana Barros</title>
@@ -15,6 +19,7 @@
       <nav class="menu-nav">
         <ul>
           <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#conhecimentos">Conhecimentos</a></li>
           <li><a href="#portifolio">Portifólio</a></li>
           <li><a href="#contato">Contato</a></li>
         </ul>
@@ -23,7 +28,7 @@
   </header>
   <div class="dados">
     <h1 class="nome">Mariana Aparecida de Miranda Barros</h1>
-    <h3 class="profissao">Jr. Front-End Developer</h3>
+    <h3 class="profissao">{ Jr. Front-End Developer }</h3>
   </div>
   <section class="sobre" id="sobre">
     <div class="sobre-info">
@@ -35,27 +40,23 @@
         Conhecimento nas linguages JavaScript, Java, C#, SGBD (SQL Server), e Metodologias ágeis Scrum. Inglês básico.
       </p>
     </div>
+    <div class="conhecimentos" id="conhecimentos">
+      <h1>Conhecimentos</h1>
+      <i class="fab fa-js fa-2x">JavaScript</i>
+      <i class="fab fa-java fa-2x">Java</i>
+      <i class="fab fa-css3 fa-2x">CSS</i>
+      <i class="fab fa-react fa-2x">React</i>
+      <i class="fab fa-html5 fa-2x">Html</i>
+      <i class="fas fa-tasks fa-2x">Scrum</i>
+      <i class="fab fa-git-alt fa-2x">Git</i>
+    </div>
     <div class="sobre-img">
-      <img src="" alt="">
+      <img src="/src/img/fotoPerfil.jpg" alt="">
     </div>
   </section>
   <section class="portifolio" id="portifolio">
     <h1>Portifólio</h1>
-    <div class="portifolio-container">
-      <div class="portifolio-item pink">
-        <h3>Cifra do Amor</h3>
-        <div>
-          <a href="https://marianambarros.github.io/SAP004-cipher/" target="_blank"><img src="/img/cifra.jpg"
-              alt="portifolio 1"></a>
-        </div>
-      </div>
-      <div class="portifolio-item blue">
-        <h3>Pokediary</h3>
-        <div>
-          <a href="#" target="_blank"><img src="/img/pokemon.jpg" alt="portifolio 2"></a>
-        </div>
-      </div>
-    </div>
+    <div id="portifolio-container" class="portifolio-container"></div>
   </section>
   <section class="contato" id="contato">
     <div class="contato-info">
@@ -67,10 +68,13 @@
       </ul>
     </div>
   </section>
-  <span class="btn-subir"><i class="fas fa-chevron-circle-up fa-3x"></i></span>
   <footer class="footer">
     <p> © 2020 - By Mariana Barros </p>
   </footer>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="main.js" type="module"></script>
 </body>
 
 </html>

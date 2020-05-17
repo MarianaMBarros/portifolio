@@ -4,9 +4,11 @@ body, h1, h2, p, ul, li, a{
 }
 
 body{
-  font-family: "Nunito", Arial, Helvetica, sans-serif;
-  color: #222222;
+  /* background-image: url("/src/img/fundo35.jpg");
+  background-size: 100% 100% ; */
+  background: radial-gradient(circle, rgba(177,111,155,0.5439695897890406) 68%, rgba(238,42,162,0.6728211304052871) 98%);
 }
+
 
 ul{
  list-style: none;
@@ -24,14 +26,23 @@ img{
   box-sizing: border-box;
 }
 
+.sobre-img{
+  max-width: 200px; 
+  max-height: 150px;
+
+}
+
 .menu-bg{
-  background: #2c70ff;
+  /* background-image: url("/src/img/fundo01.jpg"); */
+  background-color: rgb(46, 10, 94);
+  background-size: 10% auto;
+  border-bottom: 10px solid  rgb(197, 131, 25); 
 }
 
 .menu{
   max-width: 960px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 50px 0;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap; 
@@ -41,15 +52,17 @@ img{
   display: flex;
   flex-wrap: wrap;
 }
+
 .menu-nav a{
-  color: white;
-  font-size: 1.25em;
+  font-family: 'Courgette', cursive;  
+  color:rgba(212, 143, 32, 0.925);
+  font-size: 2em;
   display: block;
-  padding: 10px;
-  
+  padding: 10px;  
 }
+
 .menu-nav a:hover{
-  color: #0c24ad;
+  color: #d1a2bbee;
 }
 
 .dados{
@@ -61,17 +74,19 @@ img{
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  border-bottom: 2px solid #2c70ff;
-
 }
 
 .nome{
-    font-size: 3em;
+  font-family: 'Courgette', cursive;  
+  color: rgb(31, 31, 80);
+  font-size: 3em;
+  margin-top: 100px;
 }
 
 .profissao{
   font-size: 2em;
-  color: #7c7c7c;
+  color: rgba(31, 31, 80, 0.719);
+  margin-top: 5px;
 }
 
 .portifolio{
@@ -87,8 +102,8 @@ img{
 }
 
 .sobre{
-  border-top: 2px solid #2c70ff;
-  border-bottom: 2px solid #2c70ff;
+  border-top: 4px solid rgb(197, 131, 25); ;
+  border-bottom: 4px solid rgb(197, 131, 25); 
   max-width: 960px;
   margin: 0 auto;
   padding: 60px 0;
@@ -113,27 +128,32 @@ img{
 }
 
 .portifolio{
+  
   max-width: 960px;
   padding: 60px 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .portifolio h1{
   font-size: 1.75em;
-  margin: 0 10px 60px 10px;
-  
+  margin: 0 10px 30px 10px;  
 }
+
 .portifolio-container{
+  width: 960px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
 }
 
 .portifolio-item{
   margin: 10px ;
-  width: 200px;
-  
+  width: 200px;  
+}
+.portifolio-item img:hover{
+  opacity: 0.5;
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .portifolio-item h3{
@@ -141,24 +161,20 @@ img{
   color: #a4a4a4;
   background: #f7f7f7;
   margin: auto;
-  padding: 10px; 
+  padding: 10px 10px; 
 }
-
 
 .pink{
   border-top: 8px solid #f9265e;
 }
 
-.blue{
-  border-top: 8px solid #66d9eb;
-}
-
 .contato{
-  border-top: 2px solid #2c70ff;
+  border-top: 4px solid rgb(197, 131, 25); 
   max-width: 960px;
   margin: 10px auto;
-  padding: 30px 0;
+  padding: 20px 0;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -166,7 +182,7 @@ img{
   font-size: 1.25em;
   font-style: italic;
   max-width: 230px;
-  color: #7c7c7c;
+  color: rgb(31, 31, 80);
   margin-bottom: 10px;
 }
 .contato-info ul{
@@ -176,23 +192,32 @@ img{
 .contato-info li{
   margin: 0 10px;
 }
+.contato-info li:hover{
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
 
 .footer{
   display: flex;
-  background: #f7f7f7;
-  height: 50px;
+  background: #f7f7f73a;
+  height: 20px;
   align-items: center;
 }
  
 .footer p{
   flex: 1;
   text-align: center;
-  font-size: 1.2em;
-  color: #a4a4a4;  
+  font-size: 1em;
+  color: rgba(31, 31, 80, 0.411); 
 }
 
 .btn-subir{
   display: flex;
   justify-content: flex-end;
   color: #7c7c7c;
+}
+
+.conhecimentos{
+
 }
