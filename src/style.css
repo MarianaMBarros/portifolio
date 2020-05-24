@@ -4,8 +4,6 @@ body, h1, h2, p, ul, li, a{
 }
 
 body{
-  /* background-image: url("/src/img/fundo35.jpg");
-  background-size: 100% 100% ; */
   background: radial-gradient(circle, rgba(177,111,155,0.5439695897890406) 68%, rgba(238,42,162,0.6728211304052871) 98%);
 }
 
@@ -22,6 +20,7 @@ img{
   display: block;
   max-width: 100%;
 }
+
 *{
   box-sizing: border-box;
 }
@@ -29,12 +28,11 @@ img{
 .sobre-img{
   max-width: 200px; 
   max-height: 150px;
-
+  margin-top: 1.5em;
 }
 
 .menu-bg{
-  /* background-image: url("/src/img/fundo01.jpg"); */
-  background-color: rgb(46, 10, 94);
+  background-image: url("/src/img/estrela.gif");
   background-size: 10% auto;
   border-bottom: 10px solid  rgb(197, 131, 25); 
 }
@@ -97,9 +95,7 @@ img{
   flex-wrap: wrap;
 }
 
-.portifolio img{
-  max-width: 200px;
-}
+
 
 .sobre{
   border-top: 4px solid rgb(197, 131, 25); ;
@@ -118,8 +114,9 @@ img{
 
 .sobre-info h1{
   font-size: 1.75em;
-  margin-bottom: .5em;
+  margin-bottom: 1.5em;
 }
+
 .sobre-info p {
   font-size: 1.25em;
   line-height: 1.4;
@@ -127,13 +124,17 @@ img{
   color: #7c7c7c;
 }
 
-.portifolio{
-  
+.portifolio{  
   max-width: 960px;
   padding: 60px 0;
 }
+.portifolio img{
+  max-width: 260px;
+  height: 160px 
+}
 
 .portifolio h1{
+  color: rgb(31, 31, 80);
   font-size: 1.75em;
   margin: 0 10px 30px 10px;  
 }
@@ -156,10 +157,17 @@ img{
 	transform: scale(1.1);
 }
 
+.portifolio-item p{
+  color: #786c6c;
+  margin: auto;
+  padding: 10px 10px; 
+  background: #f7f7f7c8;
+}
+
 .portifolio-item h3{
   font-size: 1.5em;
-  color: #a4a4a4;
-  background: #f7f7f7;
+  color: #786c6c;
+  background: #f7f7f7c8;
   margin: auto;
   padding: 10px 10px; 
 }
@@ -185,13 +193,16 @@ img{
   color: rgb(31, 31, 80);
   margin-bottom: 10px;
 }
+
 .contato-info ul{
   display: flex;
   padding: 20px ;  
 }
+
 .contato-info li{
   margin: 0 10px;
 }
+
 .contato-info li:hover{
   -moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -219,5 +230,24 @@ img{
 }
 
 .conhecimentos{
+  border-bottom: 4px solid rgb(197, 131, 25); 
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.conhecimentos li{
+  display: flex;
+  font-size: 10px;
+  margin-left: 200px;
+}
+
+.conhecimentos i{
+  display: flex;
+
+  
 
 }
