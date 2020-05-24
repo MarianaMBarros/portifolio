@@ -2,7 +2,7 @@ import perfil from './perfil/perfil.js';
 
 function conhecimento() {
   const html = perfil.habilidades.reduce((data, value) => {
-    return data += `<li><i class="fab ${value.icone} fa-2x">${value.tecnologia}</i></li>`
+    return data += `<li><i class="${value.icone} fa-3x"></i>${value.tecnologia}</li>`
   }, "");
   document.getElementById("list").innerHTML = html
 }
