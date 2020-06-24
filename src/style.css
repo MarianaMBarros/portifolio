@@ -113,7 +113,11 @@ body{
   margin-bottom: 1em;
   color: #7c7c7c;
 }
-
+.profile-photo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 .portifolio{  
   max-width: 960px;
   padding: 60px 0;
