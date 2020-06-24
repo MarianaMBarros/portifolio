@@ -76,12 +76,12 @@ export default {
     },
     {
       tecnologia: "C#",
-      icone: "img/csharp.png",
+      icone: "img/csharp.jpg",
       tipo: "IMG"
     },
     {
       tecnologia: "SQL Server",
-      icone: "img/sql3.png",
+      icone: "img/sql3.jpg",
       tipo: "IMG"
     },
   ],
