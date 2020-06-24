@@ -19,25 +19,13 @@ export default {
       "descricao": "O projeto feito para amentes da culinária mostrar e publicar receitas ou pratos",
     },
     {
-      "projeto": "Cifra do Amor",
-      "img": "./img/cifra.jpg",
-      "link": "https://marianambarros.github.io/SAP004-cipher/",
-      "descricao": "O projeto tem como finalidade cifrar e decifrar mensagens de amor para casais",
+      "projeto": "ApoloCoders",
+      "img": "./img/nasa1.jpg",
+      "link": "https://github.com/MarianaMBarros/spaceapp-ApoloCoders",
+      "descricao": "O projeto Hackaton da NASA - uma solução inteligente para monitorar a qualidade do ar",
     },
-    {
-      "projeto": "Pokediary",
-      "img": "./img/pokemon.jpg",
-      "link": "https://marianambarros.github.io/SAP004-data-lovers/",
-      "descricao": "A função do Projeto é exibir e informar dados dos pokémons da 1° geração",
-    },
-    {
-      "projeto": "Umâmi",
-      "img": "./img/umami.jpg",
-      "link": "https://social-networt.web.app/",
-      "descricao": "O projeto feito para amentes da culinária mostrar e publicar receitas ou pratos",
-    },
-
   ],
+
   habilidades: [
     {
       tecnologia: "JavaScript",
