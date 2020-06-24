@@ -7,9 +7,8 @@ body, h1, p, ul, li, a{
   padding: 0px;
 }
 
-
 body{
-  background: radial-gradient(circle, rgba(177,111,155,0.5439695897890406) 68%, rgba(238,42,162,0.6728211304052871) 98%);
+  background:  rgba(231, 202, 221, 0.883) ;
 }
 
 .menu-bg{
