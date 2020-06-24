@@ -1,21 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+import { } from './data.js';
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:ital@0;1&family=Raleway&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Profile Mariana Barros</title>
-</head>
-
-<body>
-  <!-- <div id="root"></div> -->
-  <header class="menu-bg">
+export default () => {
+  const container = document.createElement('div');
+  container.classList.add('container')
+  container.innerHTML =
+    `<header class="menu-bg">
     <div class="menu">
       <nav class="menu-nav">
         <ul>
@@ -63,10 +52,5 @@
   <footer class="footer">
     <p> © 2020 - By Mariana Barros </p>
   </footer>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <script src="main.js" type="module"></script>
-</body>
-
-</html>
+  `
+}

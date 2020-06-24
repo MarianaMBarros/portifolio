@@ -31,8 +31,6 @@ function contato() {
 }
 contato();
 
-
-
 $('.portifolio-container').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
