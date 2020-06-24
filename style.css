@@ -12,7 +12,7 @@ body{
 }
 
 .menu-bg{
-  background-image: url("/src/img/estrela.gif");
+  background-image: url("img/estrela.gif");
   background-size: 10% auto;
   border-bottom: 10px solid  rgb(197, 131, 25); 
 }
