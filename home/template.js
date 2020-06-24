@@ -52,5 +52,5 @@ export default () => {
   <footer class="footer">
     <p> © 2020 - By Mariana Barros </p>
   </footer>
-  `
+  `;
 }

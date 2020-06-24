@@ -2,7 +2,13 @@ import perfil from './perfil/perfil.js';
 
 function conhecimento() {
   const html = perfil.habilidades.reduce((data, value) => {
-    return data += `<li><i class="${value.icone} fa-3x"></i>${value.tecnologia}</li>`
+    if (value.tipo === "ICON") {
+      return data += `<li><i class="${value.icone} fa-3x"></i>${value.tecnologia}</li>`
+    } else {
+      return data += `<li><img src="${value.icone}" style="width: 48px; height: 48px;"></img>${value.tecnologia}</li>`
+    }
+
+
   }, "");
   document.getElementById("list").innerHTML = html
 }
