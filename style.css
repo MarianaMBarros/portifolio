@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  cursor: url("./img/mouse4.png") 1 1, default;
 }
 
 body, h1, p, ul, li, a{
