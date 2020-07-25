@@ -16,7 +16,7 @@ conhecimento();
 
 function mostarPortifolio() {
   const html = perfil.portifolios.reduce((data, value) => {
-    return data += `<div class="portifolio-item pink">
+    return data += `<div class="portifolio-item blue">
     <h3>${value.projeto}</h3>
     <div>
       <a href="${value.link}" target="_blank"><img src="${value.img}" alt="${value.projeto}"></a>
@@ -31,7 +31,7 @@ mostarPortifolio();
 
 function contato() {
   const html = perfil.contatos.reduce((data, value) => {
-    return data += `<li><a href=${value.link} target="_blank"><i class="fab ${value.icone} fa-3x"></i></a></li>`
+    return data += `<li><a href=${value.link} target="_blank"><i class="fab ${value.icone} fa-5x"></i></a></li>`
   }, "");
   document.getElementById("contato-icone").innerHTML = html;
 }
@@ -45,3 +45,18 @@ $('.portifolio-container').slick({
   centerMode: true,
   centerPadding: '60px',
 });
+
+
+function typeWrite(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = ' ';
+  textoArray.forEach(function (letra, i) {
+
+    setTimeout(function () {
+      elemento.innerHTML += letra;
+    }, 85 * i)
+
+  });
+}
+const titulo = document.querySelector('.nome');
+typeWrite(titulo);
