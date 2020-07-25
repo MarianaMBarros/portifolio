@@ -9,53 +9,38 @@ body, h1, p, ul, li, a{
 }
 
 body{
-  background:  rgba(231, 202, 221, 0.883) ;
+  background:  #CAF0F8;
 }
 
-
-.conhecimentos{
-  border-bottom: 4px solid rgb(197, 131, 25); 
-  max-width: 960px;
-  margin: 0 auto;
+.conhecimentos{  
+  max-width: 85%;
+  margin: 0 80px 20px auto;
   padding: 60px 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.conhecimentos h1{
-  color: rgb(31, 31, 80);
-  font-size: 1.75em;
-  margin: 0 10px 30px 10px;  
-  font-style: italic;
-  margin-bottom: 50px;
-}
-
 .conhecimentos ul{
   display: flex; 
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 .conhecimentos li{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px;  
+  padding: 40px; 
 }
 .contato{
-  border-top: 4px solid rgb(197, 131, 25); 
-  max-width: 960px;
-  margin: 10px auto;
-  padding: 20px 0;
+  max-width: 85%;
+  margin: 0 80px 20px auto;
+  padding: 60px 0;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: left;
   flex-wrap: wrap;
-}
-.contato-info h1{
-  color: rgb(31, 31, 80);
-  font-size: 1.75em;
-  margin: 0 10px 30px 10px;  
-  font-style: italic;
-  margin-bottom: 10px;
 }
 
 .contato-info ul{
@@ -65,7 +50,7 @@ body{
 }
 
 .contato-info li{
-  margin: 0 10px;
+  margin: 0 40px;
 }
 
 .contato-info li:hover{
@@ -82,11 +67,9 @@ body{
 
 .dados{
   line-height: 1;
-  max-width: 960px;
-  margin: 0 auto;
+  margin: 80 50px;
   padding: 60px 10px;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
 }
@@ -107,83 +90,104 @@ footer{
 
 header{
   background-image: url("img/estrela.gif");
-  background-size: 10% auto;
-  border-bottom: 10px solid  rgb(197, 131, 25); 
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  background-size: 10% auto; 
 }
 
-.information{
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
- }
-
- p {  
+ .information p {  
   text-indent: 1.5em;
   text-align: justify;
-  font-size:   1.20em;
-  margin-bottom: 5px;
+  font-size: 1.08em;
   color: #7c7c7c;
 
 }
 
 .menu{
-  max-width: 960px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap; 
 }
 
+.menu-name{
+  margin-right: 700px;
+}
+
 .menu-nav ul{ 
+  margin-right: 80px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu-nav a{
+.menu-nav a,
+.menu-name{
   font-family: 'Courgette', cursive;  
-  color:rgba(212, 143, 32, 0.925);
-  font-size: 2em;
+  color:#0077B6;
+  font-size: 25px;
   display: block;
   padding: 10px;  
 }
 
 .menu-nav a:hover{
-  color: #d1a2bbee;
+  color: #CAF0F8;
 }
 
-.nome{
-  font-family: 'Courgette', cursive;  
+
+.nome {
   color: rgb(31, 31, 80);
-  font-size: 3em;
-  margin-top: 100px;
+  font-family: 'Courgette', cursive;   
+  margin-top: 12%;
+  margin-left: 29%; 
+  font-size: 4em;
+  position: absolute;
 }
-.personal-information{
+
+.nome:after{
+  color: rgb(22, 22, 22);
+  content: '|';
+  opacity: 1;
+  animation: pisca .7s infinite;
+ 
+}
+
+@keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+} */
+
+/* .personal-information{
   display: flex;
   justify-content: left;
+ 
+  
+} */
 
+#xxx{
+    float: left;
+    margin: 0 10px 10px 0;
+  
 }
-
 .portifolio{
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 85%;
+  margin: 0 80px 20px auto;
   padding: 60px 0;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
-.portifolio img{
-  max-width: 260px;
-  height: 160px 
-}
 
-.portifolio h1{
-  color: rgb(31, 31, 80);
-  font-size: 1.75em;
-  margin: 0 10px 30px 10px;  
-  font-style: italic;
-  margin-bottom: 50px;
+.portifolio img{
+  width: 260px;
+  height: 160px 
 }
 
 .portifolio-container{
@@ -219,45 +223,60 @@ header{
   padding: 10px 10px; 
 }
 
-.pink{
-  border-top: 8px solid #f9265e;
+.blue{
+  border-top: 8px solid #00B4D8;
 }
 
-.profile{
-  margin-left: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+.profile-gif{
+  margin-top: 110px;
 }
+
 .profissao{
   font-size: 2em;
   color: rgba(31, 31, 80, 0.719);
   margin-top: 5px;
 }
+ .profile-img{ 
+  margin-left: 100px;
+  max-width: 30em;
+  float: right; 
+}
+
 .profile img{
-  float: right;
-  max-width: 200px; 
-  max-height: 250px;
+  max-width: 13em;
   clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+ .profile{
+  float: right; 
 }
 
 .sobre{
-  border-top: 4px solid rgb(197, 131, 25); ;
-  border-bottom: 4px solid rgb(197, 131, 25); 
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 85%;
+  margin: auto 30px 20px auto;
   padding: 60px 0;
   display: flex;
+  flex-direction: column;
+  justify-content: left;
   flex-wrap: wrap;
 }
 
-
-
-.sobre h1{
+h2{
   color: rgb(31, 31, 80);
-  font-size: 1.75em;
-  margin: 0 10px 30px 10px;  
+  font-size: 1.75em;  
   font-style: italic;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 25px;
 }
+
+.separador{
+  display: flex;
+  justify-content: center;
+}
+.separador img{
+  width: 50%;
+  height: 50px;
+
+}
+
 
