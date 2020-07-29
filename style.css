@@ -99,36 +99,40 @@ header{
  .information p {  
   text-indent: 1.5em;
   text-align: justify;
-  font-size: 1.08em;
+  font-size: 1.07em;
   color: #7c7c7c;
+  margin-right: 60px;
 
 }
 
 .menu{
+  max-width: 960px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 15px 0;
   display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; 
 }
 
 .menu-name{
-  margin-right: 700px;
+  font-family: 'Courgette';
+  color:#0077B6;
+  font-size: 2em;
+  margin: 0 10px;
 }
 
 .menu-nav ul{ 
-  margin-right: 80px;
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu-nav a,
-.menu-name{
-  font-family: 'Courgette', cursive;  
+.menu-nav a{
+  font-family: 'Courgette';
   color:#0077B6;
-  font-size: 25px;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.75em;
   padding: 10px;  
 }
 
@@ -138,6 +142,7 @@ header{
 
 
 .nome {
+  max-width: 85%;
   color: rgb(31, 31, 80);
   font-family: 'Courgette', cursive;   
   margin-top: 12%;
@@ -161,20 +166,8 @@ header{
   50%{
       opacity: 0;
   }
-} */
+} 
 
-/* .personal-information{
-  display: flex;
-  justify-content: left;
- 
-  
-} */
-
-#xxx{
-    float: left;
-    margin: 0 10px 10px 0;
-  
-}
 .portifolio{
   max-width: 85%;
   margin: 0 80px 20px auto;
@@ -191,7 +184,7 @@ header{
 }
 
 .portifolio-container{
-  width: 960px;
+ width: 960px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -199,7 +192,7 @@ header{
 
 .portifolio-item{
   margin: 10px ;
-  width: 200px;  
+  width: 50px;  
 }
 .portifolio-item img:hover{
   opacity: 0.5;
@@ -252,7 +245,7 @@ header{
 
 .sobre{
   max-width: 85%;
-  margin: auto 30px 20px auto;
+  margin: 30px 20px 15px auto;
   padding: 60px 0;
   display: flex;
   flex-direction: column;
@@ -277,6 +270,49 @@ h2{
   width: 50%;
   height: 50px;
 
+}
+
+@media (max-width: 600px){
+  .menu-nav a{
+    font-size: 1.4em;
+  }
+  .nome{
+  max-width: 85%;  
+  margin-top: 0;
+  margin-left: 15px; 
+  font-size: 2.0em;
+  position: relative;
+  }
+
+  .profile-img{
+    max-width: 50%;  
+    margin-left: 15px; 
+  }
+
+  .conhecimentos ul{     
+    display: flex; 
+    align-items: center;    
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .conhecimentos ul li {   
+    width: 20px;
+    height: 15px;
+    margin: 25px;
+  }
+
+  .portifolio img{
+    width: 260px;
+    height: 160px 
+  }
+  
+  .portifolio-container{
+    width: 400px;
+    margin:  0 40px ;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 

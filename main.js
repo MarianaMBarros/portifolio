@@ -60,3 +60,13 @@ function typeWrite(elemento) {
 }
 const titulo = document.querySelector('.nome');
 typeWrite(titulo);
+
+
+function displayWindowSize() {
+  if (document.documentElement.clientWidth < 600) {
+    $('.portifolio-container').slick('slickSetOption', 'slidesToShow', 1);
+  }
+  else
+    $('.portifolio-container').slick('slickSetOption', 'slidesToShow', 3);
+}
+window.addEventListener("resize", displayWindowSize);
