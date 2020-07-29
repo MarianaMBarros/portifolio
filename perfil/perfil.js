@@ -28,7 +28,7 @@ export default {
       "projeto": "Central de Erros",
       "img": "./img/csharp.png",
       "link": "https://errorcenter.z20.web.core.windows.net/login",
-      "descricao": "Projeto Final Central de Erros - Acelera Dev C# - Online Codenation",
+      "descricao": "Projeto concentra todos os logs de erros de uma ou varias aplicações.",
     },
   ],
 
