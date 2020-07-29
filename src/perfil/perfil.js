@@ -24,6 +24,12 @@ export default {
       "link": "https://github.com/MarianaMBarros/spaceapp-ApoloCoders",
       "descricao": "Hackaton da NASA uma solução inteligente para monitorar a qualidade do ar.",
     },
+    {
+      "projeto": "Central de Erros",
+      "img": "./img/csharp.png",
+      "link": "https://errorcenter.z20.web.core.windows.net/login",
+      "descricao": "Projeto Final Central de Erros - Acelera Dev C# - Online Codenation",
+    },
   ],
 
   habilidades: [
