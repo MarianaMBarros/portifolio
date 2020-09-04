@@ -30,6 +30,12 @@ export default {
       "link": "https://errorcenter.z20.web.core.windows.net/login",
       "descricao": "Projeto concentra todos os logs de erros de uma ou varias aplicações.",
     },
+    {
+      "projeto": "Burguer Queen",
+      "img": "./img/bq.png",
+      "link": "https://burgerqueen-004.web.app/",
+      "descricao": "É uma ferramenta para auxiliar o sistemas de pedidos de uma hamburgueria.",
+    },
   ],
 
   habilidades: [
