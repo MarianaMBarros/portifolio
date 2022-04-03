@@ -1,18 +1,18 @@
 import perfil from './perfil/perfil.js';
 
-function conhecimento() {
-  const html = perfil.habilidades.reduce((data, value) => {
-    if (value.tipo === "ICON") {
-      return data += `<li><i class="${value.icone} fa-3x"></i>${value.tecnologia}</li>`
-    } else {
-      return data += `<li><img src="${value.icone}" style="width: 48px; height: 48px;"></img>${value.tecnologia}</li>`
-    }
+// function conhecimento() {
+//   const html = perfil.habilidades.reduce((data, value) => {
+//     if (value.tipo === "ICON") {
+//       return data += `<li><i class="${value.icone} fa-3x"></i>${value.tecnologia}</li>`
+//     } else {
+//       return data += `<li><img src="${value.icone}" style="width: 48px; height: 48px;"></img>${value.tecnologia}</li>`
+//     }
 
 
-  }, "");
-  document.getElementById("list").innerHTML = html
-}
-conhecimento();
+//   }, "");
+//   document.getElementById("list").innerHTML = html
+// }
+// conhecimento();
 
 function mostarPortifolio() {
   const html = perfil.portifolios.reduce((data, value) => {

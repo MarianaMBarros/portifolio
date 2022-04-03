@@ -36,12 +36,6 @@ export default {
       "link": "https://burgerqueen-004.web.app/",
       "descricao": "É uma ferramenta para auxiliar o sistemas de pedidos de uma hamburgueria.",
     },
-    {
-      "projeto": "Rendimentus",
-      "img": "./img/talent.png",
-      "link": "https://tf-rendimentus.web.app/",
-      "descricao": "Projeto Rendimentus para organização das suas contas e cartões."
-    }
   ],
 
   habilidades: [
