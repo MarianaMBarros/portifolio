@@ -15,7 +15,7 @@ export default {
     {
       "projeto": "Umâmi",
       "img": "./img/umami.jpg",
-      "link": "https://social-networt.web.app/",
+      "link": "https://github.com/MarianaMBarros/SAP004-social-network",
       "descricao": "Feito para amentes da culinária mostrar e publicar receitas ou pratos.",
     },
     {
@@ -27,7 +27,7 @@ export default {
     {
       "projeto": "Central de Erros",
       "img": "./img/csharp.png",
-      "link": "https://errorcenter.z20.web.core.windows.net/login",
+      "link": "https://github.com/MarianaMBarros/central-de-erros",
       "descricao": "Projeto concentra todos os logs de erros de uma ou varias aplicações.",
     },
     {
